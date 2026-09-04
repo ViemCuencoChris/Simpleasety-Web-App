@@ -34,7 +34,7 @@ body {
     background-color: var(--main-color);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 3rem;
     padding: 0 1.5rem;
     border: 1px solid var(--border-color);
@@ -49,5 +49,28 @@ body {
 
 .brand h1 span {
     color: var(--font-secondary-brand-color);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 0.5rem;
+}
+
+.search-bar #search-icon {
+    color: var(--font-main-color);
+}
+
+.search-bar input{
+    height: 1.5rem;
+    max-width: 45rem;
+    width: 20rem;
+    background-color: var(--background-color);
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 }
 
