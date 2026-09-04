@@ -2,14 +2,18 @@ img {
     display: none;
 }
 
+/* Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     /* UI Color */
     --background-color: #1E2019;
     --main-color: #393E41;
     --border-color: #D3D0CB;
 
-    /* Font Color */
-    --font-main: #D3D0CB;
+    /* Font styles */
+    --font-family: "Poppins", sans-serif;
+    --font-main-color: #D3D0CB;
 }
 
 * {
@@ -30,7 +34,14 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 3rem;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     border: 1px solid var(--border-color);
     border-radius: 10px;
 }
+
+.brand h1 {
+    font-family: var(--font-family);
+    color: var(--font-main-color);
+    font-size: 1.5rem;
+}
+
