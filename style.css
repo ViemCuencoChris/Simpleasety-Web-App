@@ -1,3 +1,23 @@
 img {
     display: none;
 }
+
+:root {
+    /* UI Color */
+    --background-color: #1E2019;
+    --main-color: #393E41;
+    --border-color: #D3D0CB;
+
+    /* Font Color */
+    --font-main: #D3D0CB;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: var(--background-color);
+}
