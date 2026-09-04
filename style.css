@@ -14,6 +14,8 @@ img {
     /* Font styles */
     --font-family: "Poppins", sans-serif;
     --font-main-color: #D3D0CB;
+    --font-primary-brand-color: #587B7F;
+    --font-secondary-brand-color: #E2C044;
 }
 
 * {
@@ -41,7 +43,11 @@ body {
 
 .brand h1 {
     font-family: var(--font-family);
-    color: var(--font-main-color);
+    color: var(--font-primary-brand-color);
     font-size: 1.5rem;
+}
+
+.brand h1 span {
+    color: var(--font-secondary-brand-color);
 }
 
