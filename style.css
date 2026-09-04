@@ -18,6 +18,19 @@ img {
     margin: 0;
 }
 
-html {
+body {
     background-color: var(--background-color);
+    padding: 1rem 1.5rem;
+}
+
+/* Top Bar Design*/
+.top-bar {
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 0 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
 }
